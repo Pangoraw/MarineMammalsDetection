@@ -1,6 +1,25 @@
-## Weakly supervised marine mammals detection
+##  Weakly Supervised Detection of Marine Animals in High Resolution Aerial Images 
 
-This repository contains the code and resources for the article "Weakly supervised detection of marine mammals and seabirds in high resolution RGB aerial images".
+This repository contains the code and resources for the article " Weakly Supervised Detection of Marine Animals in High Resolution Aerial Images ".
+
+### Citing
+
+If this work is useful to your research, consider citing the following article:
+
+```bib
+@Article{rs14020339,
+	AUTHOR = {Berg, Paul and Santana Maia, Deise and Pham, Minh-Tan and Lefèvre, Sébastien},
+	TITLE = {Weakly Supervised Detection of Marine Animals in High Resolution Aerial Images},
+	JOURNAL = {Remote Sensing},
+	VOLUME = {14},
+	YEAR = {2022},
+	NUMBER = {2},
+	ARTICLE-NUMBER = {339},
+	URL = {https://www.mdpi.com/2072-4292/14/2/339},
+	ISSN = {2072-4292},
+	DOI = {10.3390/rs14020339}
+}
+```
 
 ### Dependencies
 
