@@ -2,24 +2,7 @@
 
 This repository contains the code and resources for the article " Weakly Supervised Detection of Marine Animals in High Resolution Aerial Images ".
 
-### Citing
-
-If this work is useful to your research, consider citing the following article:
-
-```bib
-@Article{rs14020339,
-	AUTHOR = {Berg, Paul and Santana Maia, Deise and Pham, Minh-Tan and Lefèvre, Sébastien},
-	TITLE = {Weakly Supervised Detection of Marine Animals in High Resolution Aerial Images},
-	JOURNAL = {Remote Sensing},
-	VOLUME = {14},
-	YEAR = {2022},
-	NUMBER = {2},
-	ARTICLE-NUMBER = {339},
-	URL = {https://www.mdpi.com/2072-4292/14/2/339},
-	ISSN = {2072-4292},
-	DOI = {10.3390/rs14020339}
-}
-```
+<img width="800" alt="graphical_abstract" src="https://user-images.githubusercontent.com/9824244/155295184-90b9c06b-3bd8-4af6-bbb1-fd16f6f2acd9.png">
 
 ### Dependencies
 
@@ -99,3 +82,22 @@ The main entry point is `examples/main.py` which is going to train + test the sp
 |`num_embeddings NUM_EMBEDDINGS`|Size of embedding vectors|
 |`backbone {resnet18,resnet50,wide_resnet50}`|Which encoding backbone to use|
 |`nf`|Whether to use Deep-SVDD or NF for deep methods|
+
+### Citing
+
+If this work is useful to your research, consider citing the following article:
+
+```bib
+@Article{rs14020339,
+	AUTHOR = {Berg, Paul and Santana Maia, Deise and Pham, Minh-Tan and Lefèvre, Sébastien},
+	TITLE = {Weakly Supervised Detection of Marine Animals in High Resolution Aerial Images},
+	JOURNAL = {Remote Sensing},
+	VOLUME = {14},
+	YEAR = {2022},
+	NUMBER = {2},
+	ARTICLE-NUMBER = {339},
+	URL = {https://www.mdpi.com/2072-4292/14/2/339},
+	ISSN = {2072-4292},
+	DOI = {10.3390/rs14020339}
+}
+```
